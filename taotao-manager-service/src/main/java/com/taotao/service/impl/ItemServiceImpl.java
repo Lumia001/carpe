@@ -20,7 +20,7 @@ private TbItemMapper mapper;
 	@Override
 	public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
 		//1.设置分页的信息 使用pagehelper
-		if(page==null)page=1;
+		if(pasdsddsge==null)page=1;
 		if(rows==null)rows=30;
 		PageHelper.startPage(page, rows);
 		//2.注入mapper
